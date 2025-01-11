@@ -1,8 +1,23 @@
+#### prefix sum
 
-#### Two pointer technique
+#### two pointer
+i
+#### Sliding windows
 
-TC - O(n) & SC - O(1)
+#### Fast and slow pointer aka Flyod cycle detection
 
-Assign two variable namely left and right. traverse array from both the end
+#### linked list in place reversal (hard)
 
-if l < r, => (arr[l] + arr[r] < target ===>  r-- or arr[l] + arr[r] > target ===>  l--)
+
+#### Monotonic stack
+
+#### Top k elements
+#### overlapping intervals
+#### Binary search
+#### binary tree traversal
+#### Depth first search
+#### Breadth first search
+#### Matrix traversal
+#### Backtracking
+#### Dynamic programming
+
