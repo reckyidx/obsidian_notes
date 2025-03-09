@@ -21,3 +21,8 @@ i
 #### Backtracking
 #### Dynamic programming
 
+
+#### Top K elements
+	   Can be solved using heapify
+		1. Max heap
+		2. Min Heap
