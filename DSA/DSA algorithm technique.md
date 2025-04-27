@@ -11,6 +11,8 @@ i
 
 #### Monotonic stack
 
+The stack (lets called it as array) can be increasing steadily or decreasing steadily from bottom to top. This helps in finding the smaller element or larger element. This primarly focused on push & pop
+
 #### Top k elements
 #### overlapping intervals
 #### Binary search

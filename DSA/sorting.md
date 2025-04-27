@@ -39,8 +39,9 @@ for (let i = 0; i< arr.length - 1;i++){
 3. Insertion sort
 		From unsorted array each element inserted into correct sorted list 
 4. Merge Sort
-		Exe
-
+		Its a stable sorting algorithm which means it maintains relative order of input array. worst case is **O(N logN)** . Suitable to sort on large dataset
+		independently merge subarrays that makes it suitable for parallel processing.
+		Cons - it requires more memory space to sort the array. 
 
 
 
