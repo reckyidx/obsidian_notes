@@ -22,8 +22,9 @@ The stack (lets called it as array) can be increasing steadily or decreasing ste
 #### Matrix traversal
 #### Backtracking
 #### Dynamic programming
-
-
+	Tabulation
+	 Memoization
+#### Greedy
 #### Top K elements
 	   Can be solved using heapify
 		1. Max heap
