@@ -23,4 +23,16 @@ Low class  level of abstraction created in C and process below operation
 			- **Avoiding blocking the event loop**
 				- Long-running synchronous operations can halt the event loop. Worker threads allow these operations to run in the background, ensuring the event loop remains free to handle other requests.
 
-	2.
+2. What is oop not oops
+	OOP(object oriented programming language) is a program paradigm based on concept of objects
+		Principle
+			- Encapsulation
+			- Inheritance
+			- Polymorphism (child class method override of its parent class.)
+			- Abstraction
+			- Multiple inheitance is not supported in js instead we can use composite class (ref of two class in constructor)
+		Core Concepts
+			- classes and object
+			- Method creation
+			- Data hiding
+			- Code resuability

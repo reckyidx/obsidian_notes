@@ -13,3 +13,8 @@
 3.  Arrow fn wiill take reference from parent scope
 4. If you have an SQL query which is taking a lot of time . how will you debug . WHat all will you check
 	   Execution Plan Analysis, Index Optimization, Query Structure Issues, Data Volume and Statistics, Resource Contention, Database Configuration, Query Rewriting, Data Model Issues
+5. Array shuffle in O(n)
+```
+Math.floor(Math.random() * (i + 1));
+```
+6. 
