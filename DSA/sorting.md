@@ -42,7 +42,13 @@ for (let i = 0; i< arr.length - 1;i++){
 		Its a stable sorting algorithm which means it maintains relative order of input array. worst case is **O(N logN)** . Suitable to sort on large dataset
 		independently merge subarrays that makes it suitable for parallel processing.
 		Cons - it requires more memory space to sort the array. 
-
+5. Quick sort
+     TC - n log n
+     SC - o(1)
+     take a pivot element (either first or last or median or random), iterate with rest of the elements, move smaller to left and larger to right
+ 6. Quick Select
+		 Similar to quick sort implementation. Role is to find k th element leaving array unsorted
+	
 
 
 #### Non Comparision sorting
