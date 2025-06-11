@@ -1,4 +1,4 @@
-1. Dif between if else and ternary
+ 1. Dif between if else and ternary
 		if/else - it is a statement, cant store a outcome
 		ternary - it is expression, can store outcome
 
@@ -17,4 +17,10 @@
 ```
 Math.floor(Math.random() * (i + 1));
 ```
-6. 
+6. Circular array
+	```
+	arr[(i%arr.length + n) % arr.length]
+```
+		````javascript
+arr[(i % n + n) % n];
+````
