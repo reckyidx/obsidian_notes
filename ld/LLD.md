@@ -21,3 +21,58 @@
 		Queue (Kafka/RabbitMQ)
 		  |
 		Worker Nodes
+8. Simulate a queue with Promises (FIFO async task runner)
+   
+```
+   class TaskQueue {
+  constructor() {
+    this.queue = [];
+    this.running = false;
+  }
+
+  // Add a task to the queue
+  add(task) {
+    this.queue.push(task);
+    this.run(); // trigger execution
+  }
+
+  // Core runner: executes one task at a time
+  async run() {
+    if (this.running) return;
+    this.running = true;
+
+    while (this.queue.length > 0) {
+      const task = this.queue.shift(); // FIFO
+      try {
+        await task(); // wait for it to complete
+      } catch (err) {
+        console.error("Task error:", err);
+      }
+    }
+
+    this.running = false;
+  }
+}
+
+```
+
+```
+const queue = new TaskQueue();
+
+// Simulated async tasks
+function createTask(name, time) {
+  return () =>
+    new Promise((resolve) => {
+      console.log(`Starting: ${name}`);
+      setTimeout(() => {
+        console.log(`Finished: ${name}`);
+        resolve();
+      }, time);
+    });
+}
+
+// Add tasks
+queue.add(createTask("Task 1", 1000));
+queue.add(createTask("Task 2", 500));
+queue.add(createTask("Task 3", 200));
+```
