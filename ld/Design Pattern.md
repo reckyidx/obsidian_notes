@@ -21,6 +21,7 @@ Object interacted focusing on communication and responsibility
 - observer
 - state
 - strategy
+	 
 - template
 - visitor
 
