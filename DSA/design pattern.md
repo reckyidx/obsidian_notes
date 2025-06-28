@@ -12,7 +12,7 @@ In addition, patterns allow developers to communicate using well-known, well und
 
 ### [Creational design patterns](https://sourcemaking.com/design_patterns/creational_patterns)
 
-These design patterns are all about class instantiation. This pattern can be further divided into class-creation patterns and object-creational patterns. While class-creation patterns use inheritance effectively in the instantiation process, object-creation patterns use delegation effectively to get the job done.
+provides various object creation mechanism, which increase flexibility and reuse the existing code flow
 
 [![Example of Abstract Factory](https://sourcemaking.com/files/v2/content/patterns/Abstract_Factory-preview.png)](https://sourcemaking.com/design_patterns/abstract_factory)
 
