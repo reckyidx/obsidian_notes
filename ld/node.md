@@ -36,3 +36,17 @@ Low class  level of abstraction created in C and process below operation
 			- Method creation
 			- Data hiding
 			- Code resuability
+3. Bind
+	- Building Partial Functions for Reuse. Say you have a logging utility where you want to reuse the same format but with different log levels
+	  `function log(level, message) {
+		  console.log(`[${level.toUpperCase()}]: ${message}`);
+		}
+		
+		// Create partials using bind
+		const infoLog = log.bind(null, 'info');
+		const errorLog = log.bind(null, 'error');
+		
+		infoLog('User signed in');   // [INFO]: User signed in
+		errorLog('Something broke'); // [ERROR]: Something broke
+		`
+	 - 

@@ -24,3 +24,8 @@ Math.floor(Math.random() * (i + 1));
 		````javascript
 arr[(i % n + n) % n];
 ````
+7. Removes= any whitespace character (space, tab, newline, etc.) (`/\s+/`)
+```
+// Regular split with single space "hello world test".split(" ") // Result: 
+["hello", "", "world", "", "", "test"] // ❌ Creates empty strings from multiple spaces // Using trim().split(/\s+/) " hello world test ".trim().split(/\s+/) // Result: ["hello", "world", "test"] // ✅ Clean array with only actual words
+```
