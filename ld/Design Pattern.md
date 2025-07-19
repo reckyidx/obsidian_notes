@@ -1,4 +1,6 @@
-	
+Gang of design pattern - creational, structural & behaviour
+it is called GODP - clear way to solve a problem
+
 **Creational**
 How objects are created provided flexible and efficient ways to instantiate them without specifying the exact details of creation process.
 - abstract factory
