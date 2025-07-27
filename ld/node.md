@@ -49,4 +49,6 @@ Low class  level of abstraction created in C and process below operation
 		infoLog('User signed in');   // [INFO]: User signed in
 		errorLog('Something broke'); // [ERROR]: Something broke
 		`
-	 - 
+	-
+4. javascript single thread and executes code in sync 
+		JavaScript itself is synchronous and single-threaded, but both browser and Node.js runtimes provide asynchronous capabilities through their respective APIs and the event loop mechanism. Node.js isn't "more asynchronous" than browser JavaScript - they just have different async APIs suited to their environments

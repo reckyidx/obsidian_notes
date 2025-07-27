@@ -54,5 +54,11 @@ for (let i = 0; i< arr.length - 1;i++){
 #### Non Comparision sorting
 
 #### hybrid sorting
+#### Graph-based dependency sort
 
-
+it orders(linear sorting) based on directed cyclic graphs
+1. Topological Sort
+		Used for task A be done before task B. eg:- task scheduling, build system and resolve dependency
+		- Kahn algorithm
+		- DFS based topological sort
+		 
