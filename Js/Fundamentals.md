@@ -47,3 +47,9 @@ Benefits
 	- Event handlers and callbacks: maintain state or access variables
 	- Module patterns: with private and public parts.
 - Example: Create a counter, 
+
+#### Difference between function and method 
+###### Function
+- standalone block of code that performs a task
+- independent, used to declare, assign it to a variable or pass around as value in object
+- not bind to a object, it can be called directly
