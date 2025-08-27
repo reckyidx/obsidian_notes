@@ -38,19 +38,12 @@ Focuses on writing **modular, scalable, and reusable** code by modeling real-wor
 ### 🔹 Practice & Study Notes
 
 1. **Book Management System** – Search books by author, purchase, track inventory, handle payments
-    
 2. **Elevator System Design** – [Reference](https://freedium.cfd/https://medium.com/geekculture/system-design-elevator-system-design-interview-question-6e8d03ce1b44)
-    
 3. **System Design Basics** – [5 essential questions](https://medium.com/@choudharys710/5-essential-system-design-questions-every-developer-should-know-ii-eb15fea83d53)
-    
 4. **Newsfeed System Design** – Study real-time feed generation & ranking
-    
 5. **Distributed Systems Concepts**
-    
     - Distributed Locking
-        
     - Replication Lag
-        
 6. **Scalability: 100 → 1M Requests/sec**
     
     ```

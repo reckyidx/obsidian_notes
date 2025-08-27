@@ -54,9 +54,18 @@ Benefits
 - standalone block of code that performs a task
 - independent, used to declare, assign it to a variable or pass around as value in object
 - not bind to a object, it can be called directly
-=======
+###### Method
+- it is protoptype to class 
+- all declaration call defined inside class are called as method
 #### Compiler
 JS and Node uses **just in time ** (JIT) compiler inside v8 engine. executes source code into machine code during run time rather than before execution 
 - native add on like node and c++ modules are compiled with node-gyp, which uses GCC (C compiler ) or Clang
 - Transpiler is different converts source -> bytecode -.> machine code (compatibility of es6 to es5, used in babel)
 
+#### Security Best Practices
+
+- **XSS (Cross-Site Scripting)**: Sanitizing user input to prevent malicious scripts.
+- **SQL Injection**: Using parameterized queries to prevent injection attacks.
+- **Rate Limiting**: Limiting the number of requests to protect against DoS attacks.
+- **Helmet.js**: Middleware to secure Express apps by setting HTTP headers.
+- **CORS**: Cross-Origin Resource Sharing—configuring which domains can access resources.
