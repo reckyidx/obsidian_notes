@@ -47,9 +47,16 @@ Benefits
 	- Event handlers and callbacks: maintain state or access variables
 	- Module patterns: with private and public parts.
 - Example: Create a counter, 
+<<<<<<< HEAD
 
 #### Difference between function and method 
 ###### Function
 - standalone block of code that performs a task
 - independent, used to declare, assign it to a variable or pass around as value in object
 - not bind to a object, it can be called directly
+=======
+#### Compiler
+JS and Node uses **just in time ** (JIT) compiler inside v8 engine. executes source code into machine code during run time rather than before execution 
+- native add on like node and c++ modules are compiled with node-gyp, which uses GCC (C compiler ) or Clang
+- Transpiler is different converts source -> bytecode -.> machine code (compatibility of es6 to es5, used in babel)
+
