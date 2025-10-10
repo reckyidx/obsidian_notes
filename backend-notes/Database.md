@@ -4,7 +4,16 @@
 
 	Map between object in programming and table in relationship database
 		 Pros: CRUD interaction without SQl, Migration, Association (1-1, 1-many,                many- many), lazy loading(load data when needed), Transaction                     support, Query builders)
-		 
+
+# Transaction
+- sequence of one or more database operation (I,U or D) that are executed in a single unit of work
+	 #### Properties
+	- **Atomicity** - all step transaction are treated as one, if one fails are changes are rollback
+	- **Consistency** - The database remains valid state before and after transaction(if any fails rollback all last updated)
+	- **Isolation** - Transaction independent each other. one transaction does nt after another while running
+	- **Durability** - record persist event after crash
+
+# Index
 
 ## PostgreSQL Index Types
 
