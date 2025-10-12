@@ -107,7 +107,11 @@ The value of `this` is determined by how a function is called:
 *   **Promise Patterns:** `Promise.all()` (fail-fast), `Promise.allSettled()` (wait for all), `Promise.race()` (first to settle).
 *   **Async Local Storage (ALS):** Provides a way to store context (e.g., user session, request ID) throughout the lifetime of a synchronous or asynchronous operation, replacing the deprecated `domain` module.
 
----
+#### **5. Concurrecy**
+Node.js handles concurrency using an event-driven, non-blocking I/O model. This means that rather than waiting for I/O operations to complete before moving on to the next task, Node.js can execute multiple tasks simultaneously by delegating I/O operations to separate threads in the background.
+
+#### **6. Scalability** 
+highly scalable, meaning it can handle large amounts of traffic and requests without sacrificing performance or reliability. This is achieved through a combination of techniques, including clustering, load balancing, and caching
 
 ### **III. Security Best Practices (AppSec)**
 *   **OWASP Top 10:** Understand and mitigate common vulnerabilities.
