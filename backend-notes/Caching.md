@@ -45,3 +45,19 @@ Data is temporarly stored so policy is required to maintain caching efficiently 
 
 #### Tools
 Redis, Memcahced, Varnish, Edge cached
+
+#### Purpose
+- performance enhancement, latency reduction, throughput increase, resource conservation, fault tolerance, load adaption, cross cut concern handling
+
+#### Mechanism
+- browser cache, in memory cache, distributed cache
+#### Cache Key
+act as cache indicator and fetch data in O(1)
+
+#### Cache Expiration
+cache info become expired over a certain period of time
+- Time based, rate limited, on demand , data driven
+
+
+Useful Links :https://github.com/Devinterview-io/caching-interview-questions
+			
