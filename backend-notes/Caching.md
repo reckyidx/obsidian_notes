@@ -59,5 +59,5 @@ cache info become expired over a certain period of time
 - Time based, rate limited, on demand , data driven
 
 
-Useful Links :https://github.com/Devinterview-io/caching-interview-questions
-			
+Useful Links :     https://github.com/Devinterview-io/caching-interview-questions
+	         https://pradyumnachippigiri.substack.com/p/caching-playbook-for-system-design
