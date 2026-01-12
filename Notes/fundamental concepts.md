@@ -29,3 +29,5 @@ arr[(i % n + n) % n];
 // Regular split with single space "hello world test".split(" ") // Result: 
 ["hello", "", "world", "", "", "test"] // ❌ Creates empty strings from multiple spaces // Using trim().split(/\s+/) " hello world test ".trim().split(/\s+/) // Result: ["hello", "world", "test"] // ✅ Clean array with only actual words
 ```
+8. Time complexity
+		![[Pasted image 20260110124242.png]]
