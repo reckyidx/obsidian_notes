@@ -73,6 +73,22 @@ The value of `this` is determined by how a function is called:
 *   **Native Addons:** C++ modules are compiled into `.node` files using `node-gyp`, which uses compilers like **GCC** or **Clang**.
 *   **Transpiler (e.g., Babel):** A source-to-source compiler that converts modern ES6+ code into backwards-compatible ES5 code that can run in older JS engines. It handles syntax, not machine code.
 
+#### 6. `Promise.race` vs `Promise.any` and API cancellation
+
+Both **`Promise.race`** and **`Promise.any`** do **not cancel other promises** automatically.
+
+If multiple API calls are started and one resolves first, the remaining API calls **continue running in the background** unless explicitly aborted.
+To actually stop the pending requests, you must use **explicit cancellation**, such as AbortController
+```
+const controller = new AbortController();
+
+Promise.any([
+  fetch("/fast", { signal: controller.signal }),
+  fetch("/slow", { signal: controller.signal })
+]).then(() => {
+  controller.abort(); // cancels remaining requests
+});
+```
 ---
 
 ### **II. The Node.js Runtime & Advanced Concepts**
