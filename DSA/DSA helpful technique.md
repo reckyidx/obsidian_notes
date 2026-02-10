@@ -8,5 +8,6 @@ mid = start + (end - start) / 2
 ```
 	This helps in avoiding integer overflowing for exa,ple start = int.max ,  
 	end = int.max. Both sum results in out of safe integer. so better use above       formula. answer will in safe process
+		if end is greater num lets say infinity ,sum calculation would end up in OutOfBound Exception
 	
 3. 
